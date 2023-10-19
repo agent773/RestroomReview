@@ -1,2 +1,2 @@
 # RestroomReview
-The Blog of restrooms
+Welcome to Berkeley Restroom Review!
