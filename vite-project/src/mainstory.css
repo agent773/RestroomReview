@@ -1,0 +1,43 @@
+.mainstory{
+    width: 1440px;
+height: 419px;
+flex-shrink: 0; 
+}
+.image{
+    width: 692px;
+height: 390px;
+flex-shrink: 0;
+padding-left: 28;
+padding-top: 12;
+padding-bottom: 17;
+}
+.newtag{
+    color: #2D3577;
+font-family: Inter;
+font-size: 28px;
+font-style: normal;
+font-weight: 700;
+line-height: normal; 
+padding: ;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    right: 100px;
+}
+.title{
+    color: #000;
+font-family: Inter;
+font-size: 36px;
+font-style: normal;
+font-weight: 700;
+line-height: normal; 
+}
+.blurb{
+    color: #000;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal; 
+}

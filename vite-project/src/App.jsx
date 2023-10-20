@@ -4,6 +4,7 @@ import Navbar from './Navbar';
 import BasicExample from './BasicExample';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './qoute.css';
+import './mainstory.css'
 
 function App() {
   // const [count, setCount] = useState(0)
@@ -13,7 +14,17 @@ function App() {
     <Navbar className="navbar" />
     <div className='qoute'>
       Your source for the crap that matters.
-    </div>   
+    </div>
+    <div className='content'>
+    <div className='newtag'>NEW</div>
+    <div className='title'>MENTAL HEALTH REALTED TO COLON HEALTH?</div>
+    <div className='blurb'>Betty</div>
+
+
+
+    </div>
+
+    <img className='image' src="https://via.placeholder.com/692x390" />
     </>
 
     // <>
