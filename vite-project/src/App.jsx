@@ -1,19 +1,20 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
-import { Dropdown } from './dropdown'
-import { Element } from './Element'
+import Dropdown from 'react-bootstrap/Dropdown'
+import DropdownButton from 'react-bootstrap/DropdownButton';
+import Navbar from './Navbar'
+import BasicExample from './BasicExample';
+import 'bootstrap/dist/css/bootstrap.min.css'
 
 function App() {
-  const [count, setCount] = useState(0)
+  // const [count, setCount] = useState(0)
 
   return (
     <>
-    <Dropdown/>
-    <Element/>
+    <Navbar/>
+    <BasicExample/>
     </>
-    // hello worl
+
     // <>
     //   <div>
     //     <a href="https://vitejs.dev" target="_blank">
