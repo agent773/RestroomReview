@@ -11,10 +11,9 @@ function App() {
   return (
     <>
     <Navbar className="navbar" />
-    <BasicExample/>
     <div className='qoute'>
-  Your source for the crap that matters.
-  </div>   
+      Your source for the crap that matters.
+    </div>   
     </>
 
     // <>
