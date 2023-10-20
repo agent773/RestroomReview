@@ -1,12 +1,20 @@
 .navbar {
     background-color: #2D3577 !important;
-    color: #2D3577 !important;
+    color: white;
     width: 100% !important;
     text-align: right !important;
     justify-content: right !important;
-    font-size: 40px;
+    font-size: 20px;
 }
 
 .navdrop {
-    background-color: #2D3577 !important;
+    background-color: transparent !important;
+    color: red !important;
+    overflow: wrap;
+}
+
+.link {
+    color: rgba(255, 255, 255, .8) !important;
+    text-decoration: none !important;
+    margin-right: 15px;
 }
