@@ -4,6 +4,15 @@ import Navbar from './Navbar';
 import BasicExample from './BasicExample';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './qoute.css';
+// import {
+//   createBrowserRouter,
+//   RouterProvider
+// } from "react-router-dom";
+
+// const router = createBrowserRouter([
+//   path: "/",
+//   element: 
+// ])
 
 function App() {
   // const [count, setCount] = useState(0)

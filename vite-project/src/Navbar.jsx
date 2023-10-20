@@ -10,7 +10,7 @@ function NavbarDarkExample() {
   return (
     <Navbar variant="dark" bg="dark" expand="lg">
       <Container fluid>
-      <Navbar.Brand href="#home">
+      <Navbar.Brand href="/">
             <img
               src= {logo}
               width="50"
@@ -19,13 +19,13 @@ function NavbarDarkExample() {
               alt="Toilet"
             />
         </Navbar.Brand>
-        <Navbar.Brand href="#home">Berkeley Restroom Review </Navbar.Brand>
+        <Navbar.Brand href="/">Berkeley Restroom Review </Navbar.Brand>
         <Navbar.Toggle aria-controls="navbar-dark-example" />
         <Navbar.Collapse className="justify-content-end">
           <Navbar.Text>
-            <a href="/Article1" className='link'>Home        </a>
-            <a href="#login" className='link'>Tips        </a>
-            <a href="#login" className='link'>Politics    </a>
+            <a href="/" className='link'>Home        </a>
+            <a href="/article1" className='link'>Tips        </a>
+            <a href="/article1" className='link'>Politics    </a>
           </Navbar.Text>
           <Nav>
         
