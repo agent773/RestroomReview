@@ -8,9 +8,6 @@
 
 }
 
-.navbar.dropdown {
-    text-align: right !important;
-    align-self: right !important;
-    justify-content: right !important;
+.navdrop {
+    background-color: green !important;
 }
-

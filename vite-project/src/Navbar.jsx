@@ -26,7 +26,7 @@ function NavbarDarkExample() {
               id="nav-dropdown-dark-example"
               title="Dropdown"
               menuVariant="dark"
-              className='dropdown'
+              className='navdrop'
             >
               <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
               <NavDropdown.Item href="#action/3.2">
