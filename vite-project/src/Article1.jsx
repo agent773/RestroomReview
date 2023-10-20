@@ -1,18 +1,10 @@
 import { useState } from 'react'
 import './App.css';
+import './ArticleStyles.css'
 import Navbar from './Navbar';
-import BasicExample from './BasicExample';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './qoute.css';
-// import {
-//   createBrowserRouter,
-//   RouterProvider
-// } from "react-router-dom";
-
-// const router = createBrowserRouter([
-//   path: "/",
-//   element: 
-// ])
+import bathroom_image from './assets/bathroom.jpg'
 
 function App() {
   // const [count, setCount] = useState(0)
@@ -21,8 +13,41 @@ function App() {
     <>
     <Navbar className="navbar" />
     <div className='qoute'>
-      Your source for the crap that matters.ijewirunvfhvdsh
-    </div>   
+      Your source for the crap that matters. ARTICLE 1
+    </div>
+    <div className='container'>
+      <div className='article'>
+        <div className='title'>
+          The Five Best Bathrooms on Campus
+        </div>
+        <div className='image_box'>
+          <img className='header_image' src={bathroom_image}/>
+        </div>
+        <div className='caption'>
+          The secret bathroom in Dwinelle that everyone knows about but you
+        </div>
+        <p/> <p/> <p/> <p/> <p/> <p/> <p/>
+        <div className='text'>
+          <p>
+            Yes, I know your dirty secret. Every time you go home, 
+          </p>
+          <p>
+            Paragraph 2!
+          </p>
+        </div>
+      </div>
+      <div className='recommended'>
+        <div className='recArticle'>
+          rec article image/title go here
+        </div>
+        <div className='recArticle'>
+          rec article image/title go here
+        </div>
+        <div className='recArticle'>
+          rec article image/title go here
+        </div>
+      </div>
+    </div>
     </>
 
     // <>

@@ -1,0 +1,66 @@
+/* container that holds article box and recommendation box */
+.container {
+    display: flex;
+    flex-direction: row;
+}
+
+/* holds all article stuff */
+.article {
+    padding: 10px;
+}
+
+/* newtag, for subject */
+.newtag{
+    color: #2D3577;
+font-family: Inter;
+font-size: 28px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+/* title obv */
+.title {
+    font-size: 70px !important;
+    margin-bottom: 20px;
+}
+
+/* box that allows images to be centered */
+.image_box {
+    display: flex;
+    justify-content: center !important;
+}
+
+/* headline image */
+.header_image {
+    max-width: 70%;
+    justify-content: center;
+    height: auto;
+
+}
+
+/* caption */
+.caption {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-style: italic;
+}
+
+/* content of article */
+.text {
+
+}
+
+/* container for recommended articles */
+.recommended {
+    display: flex;
+    flex-direction: column;
+    width: 480px;
+
+}
+
+/* box that contains rec article formatting */
+.recArticle {
+
+}
