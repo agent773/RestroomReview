@@ -22,9 +22,10 @@ line-height: normal;
 .content{
     display: flex;
     flex-direction: column;
-    right: 100px;
+    left: 100px;
     justify-content: space-between;
-  align-items: right;
+     align-items: right;
+     left: 100px;
 }
 .title{
     color: #000;
