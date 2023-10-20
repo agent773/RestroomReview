@@ -4,6 +4,7 @@ import Navbar from './Navbar';
 import BasicExample from './BasicExample';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './NavbarStyles.css';
+import './qoute.css'
 
 function App() {
   // const [count, setCount] = useState(0)
@@ -12,6 +13,9 @@ function App() {
     <>
     <Navbar className="navbar" />
     <BasicExample/>
+    <div className='qoute'>
+  Your source for the crap that matters.
+  </div>   
     </>
 
     // <>
