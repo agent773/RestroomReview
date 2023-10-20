@@ -3,8 +3,7 @@ import './App.css';
 import Navbar from './Navbar';
 import BasicExample from './BasicExample';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import './NavbarStyles.css';
-import './qoute.css'
+import './qoute.css';
 
 function App() {
   // const [count, setCount] = useState(0)
