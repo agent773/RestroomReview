@@ -1,30 +1,56 @@
 import { useState } from 'react'
 import './App.css';
 import Navbar from './Navbar';
+import Article1 from './Article1';
 import BasicExample from './BasicExample';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './qoute.css';
 import './mainstory.css'
+import {
+  createBrowserRouter,
+  RouterProvider
+} from "react-router-dom";
+
+const router = createBrowserRouter([
+  {
+  path: "/",
+  element: 
+  <>
+  <Navbar className="navbar" />
+  <div className='qoute'>
+    Your source for the crap that matters.
+  </div>
+  <div className='content'>
+  <div className='newtag'>NEW</div>
+  <div className='title'>MENTAL HEALTH REALTED TO COLON HEALTH?</div>
+  <div className='blurb'>Betty</div>
+
+
+
+  </div>
+
+  <img className='image' src="https://via.placeholder.com/692x390" />
+  </>
+  },
+  
+  {
+    path: "/article1",
+    element: <Article1 />
+  },
+
+  {
+    path: "/article2",
+    element: <Article1 />
+  },
+]);
 
 function App() {
   // const [count, setCount] = useState(0)
 
   return (
+    
     <>
-    <Navbar className="navbar" />
-    <div className='qoute'>
-      Your source for the crap that matters.
-    </div>
-    <div className='content'>
-    <div className='newtag'>NEW</div>
-    <div className='title'>MENTAL HEALTH REALTED TO COLON HEALTH?</div>
-    <div className='blurb'>Betty</div>
-
-
-
-    </div>
-
-    <img className='image' src="https://via.placeholder.com/692x390" />
+    <RouterProvider router={router} />
     </>
 
     // <>
