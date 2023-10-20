@@ -1,0 +1,12 @@
+.navbar {
+    background-color: #2D3577 !important;
+    color: #2D3577 !important;
+    width: 100% !important;
+}
+
+.navbar.dropdown {
+    text-align: right !important;
+    align-self: right !important;
+    justify-content: right !important;
+}
+

@@ -1,17 +1,16 @@
 import { useState } from 'react'
-import './App.css'
-import Dropdown from 'react-bootstrap/Dropdown'
-import DropdownButton from 'react-bootstrap/DropdownButton';
-import Navbar from './Navbar'
+import './App.css';
+import Navbar from './Navbar';
 import BasicExample from './BasicExample';
-import 'bootstrap/dist/css/bootstrap.min.css'
+import 'bootstrap/dist/css/bootstrap.min.css';
+import './NavbarStyles.css';
 
 function App() {
   // const [count, setCount] = useState(0)
 
   return (
     <>
-    <Navbar/>
+    <Navbar className="navbar" />
     <BasicExample/>
     </>
 
