@@ -33,8 +33,8 @@ function NavbarDarkExample() {
         <Navbar.Collapse className="justify-content-end">
           <Navbar.Text>
             <a href="/" className='link'>Home        </a>
-            <a href="/article1" className='link'>Tips        </a>
-            <a href="/article1" className='link'>Politics    </a>
+            <a href="/article1" className='link'>2023 Rankings        </a>
+            <a href="https://www.theguardian.com/us" className='link' target='_blank'>Politics    </a>
           </Navbar.Text>
           <Nav>
         
@@ -44,8 +44,8 @@ function NavbarDarkExample() {
             menuVariant="dark"
             className='navdrop'
         >
-            <NavDropdown.Item href="#action/3.1">Quizzes</NavDropdown.Item>
-            <NavDropdown.Item href="#action/3.2">Weather</NavDropdown.Item>
+            <NavDropdown.Item href="https://www.buzzfeed.com/quizzes" target='_blank'>Quizzes</NavDropdown.Item>
+            <NavDropdown.Item href="https://weather.com/" target='_blank'>Weather</NavDropdown.Item>
             <NavDropdown.Item href="https://theonion.com/" target='_blank'>Inspiration</NavDropdown.Item>
         </NavDropdown>
         </Nav>
