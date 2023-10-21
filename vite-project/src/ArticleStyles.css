@@ -39,6 +39,13 @@ line-height: normal;
 
 }
 
+.double_image {
+    width: 48%;
+    justify-content: center;
+    flex-direction: row;
+    height: auto;
+}
+
 /* caption */
 .caption {
     display: flex;
@@ -56,11 +63,34 @@ line-height: normal;
 .recommended {
     display: flex;
     flex-direction: column;
-    width: 480px;
+    width: 480px !important;
 
 }
 
 /* box that contains rec article formatting */
 .recArticle {
+    /* make width match that of rec boxes in home page */
+    width: 480px !important;
+}
 
+/* so this doesnt actually work, but good for reference */
+hr {
+    color: '#2D3577' !important;
+    height: '3px' !important;
+    background-color: '#2D3577' !important;
+    opacity: '70%' !important;
+}
+
+/* footer design, could prob be copied to other places if needed */
+footer {
+    display: flex;
+    justify-content: center;
+    height: 100px;
+    background-color: #2D3577 !important;
+    opacity: 100%;
+    vertical-align: middle;
+    line-height: 100px;
+    color: white;
+    font-size: 24px;
+    margin-top: 50px;
 }

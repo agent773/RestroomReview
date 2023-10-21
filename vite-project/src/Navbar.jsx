@@ -8,7 +8,7 @@ import { Button, NavbarToggle } from 'react-bootstrap';
 
 function NavbarDarkExample() {
   return (
-    <Navbar variant="dark" bg="dark" expand="lg">
+    <Navbar variant="dark" expand="lg" sticky='top'>
       <Container fluid>
       <Navbar.Brand href="/">
             <img
