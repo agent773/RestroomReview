@@ -19,8 +19,8 @@ import haasin from './assets/haasin.jpg'
 import havout from './assets/havout.jpg'
 import havin from './assets/havin.jpg'
 
-// import dwinout from './assets/dwinout.jpg'
-// import dwinin from './assets/dwinin.jpg'
+import aprout from './assets/aprout.jpg'
+import aprin from './assets/aprin.jpg'
 
 function App() {
   // const [count, setCount] = useState(0)
@@ -119,7 +119,7 @@ function App() {
               <img className='double_image' src={ealout}/>
               <img className='double_image' src={ealin}/>
             </div>
-            <div className='caption'> Oh hey, we actually included a nice one! </div>
+            <div className='caption'> Okay, this one actually kinda sucks. But no one needs to know that. </div>
             <h2> 4. East Asian Library - Top Floor </h2>
             With a total of 2.4 open seats at their tables, studiyng at drop-dead gorgeous EAL is reserved
             for those who spend more time on their aesthetic than work. Clad with $5,000 of Apple tech at any
@@ -133,10 +133,10 @@ function App() {
 
           <p>
             <div className='image_box'>
-              <img className='double_image' src={havout}/>
-              <img className='double_image' src={havin}/>
+              <img className='double_image' src={aprout}/>
+              <img className='double_image' src={aprin}/>
             </div>
-            <div className='caption'> Oh hey, we actually included a nice one! </div>
+            <div className='caption'> Let the backrooms take you. </div>
             <h2> 5. Unit 2 - APR </h2>
             Yep, we're once again catering towards our freshman audience; however, using this one's a lot 
             funnier if you aren't a freshman. Just take the walk right down the steps of mere miles-away
@@ -152,13 +152,13 @@ function App() {
         </div>
       </div>
       <div className='recommended'>
-        <div className='recArticle'>
+        <div className='recArticle' id='rec1'>
           rec article image/title 1 go here
         </div>
-        <div className='recArticle'>
+        <div className='recArticle' id='rec2'>
           rec article image/title 2 go here
         </div>
-        <div className='recArticle'>
+        <div className='recArticle' id='rec3'>
           rec article image/title 3 go here
         </div>
       </div>

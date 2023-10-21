@@ -4,22 +4,31 @@ import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import './NavbarStyles.css'
 import logo from './assets/Toilet.png'
+import nameCard from './assets/nameCard.png'
 import { Button, NavbarToggle } from 'react-bootstrap';
 
 function NavbarDarkExample() {
   return (
     <Navbar variant="dark" expand="lg" sticky='top'>
       <Container fluid>
-      <Navbar.Brand href="/">
-            <img
-              src= {logo}
-              width="50"
-              height="50"
+        <Navbar.Brand href="/">
+          <img
+            src= {logo}
+            width="50"
+            height="50"
+            className="d-inline-block align-top"
+            alt="Toilet"
+          />
+        </Navbar.Brand>
+        <Navbar.Brand href="/">
+          <img
+              src= {nameCard}
+              width="250"
+              height="auto"
               className="d-inline-block align-top"
               alt="Toilet"
             />
         </Navbar.Brand>
-        <Navbar.Brand href="/">Berkeley Restroom Review </Navbar.Brand>
         <Navbar.Toggle aria-controls="navbar-dark-example" />
         <Navbar.Collapse className="justify-content-end">
           <Navbar.Text>

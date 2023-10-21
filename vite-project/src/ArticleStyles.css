@@ -64,6 +64,8 @@ line-height: normal;
     display: flex;
     flex-direction: column;
     width: 480px !important;
+    position: sticky;
+    top: 300px;
 
 }
 
@@ -71,6 +73,21 @@ line-height: normal;
 .recArticle {
     /* make width match that of rec boxes in home page */
     width: 480px !important;
+}
+
+#rec1 {
+    position: sticky;
+    top: 100px;
+}
+
+#rec2 {
+    position: sticky;
+    top: 250px;
+}
+
+#rec3 {
+    position: sticky;
+    top: 400px;
 }
 
 /* so this doesnt actually work, but good for reference */
