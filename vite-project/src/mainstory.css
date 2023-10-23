@@ -1,16 +1,23 @@
 .mainstory{
-    width: 1440px;
+    width: 100vw;
 height: 419px;
-flex-shrink: 0; 
+display: grid;
+grid-template-columns: 50% 50%;
+grid-template-rows: auto;
 }
-.image{
-    width: 692px;
-height: 390px;
-flex-shrink: 0;
-padding-left: 28;
-padding-top: 12;
-padding-bottom: 17;
+
+.imger{
+    width: 100%;
 }
+.grider{
+    display: flex;
+    flex-direction: column;
+    border-radius: 15px;
+border-style: hidden;
+}
+
+
+
 .newtag{
     color: #2D3577;
 font-family: Inter;
@@ -19,18 +26,10 @@ font-style: normal;
 font-weight: 700;
 line-height: normal;
 }
-.content{
-    display: flex;
-    flex-direction: column;
-    left: 100px;
-    justify-content: space-between;
-     align-items: right;
-     left: 100px;
-}
 .title{
     color: #000;
 font-family: Inter;
-font-size: 36px;
+font-size: 10px;
 font-style: normal;
 font-weight: 700;
 line-height: normal; 
@@ -43,3 +42,49 @@ line-height: normal;
     font-weight: 400;
     line-height: normal; 
 }
+
+.sidestorys{
+    width: 100vw;
+height: 419px;
+display: grid;
+grid-template-columns: 33.33% 33.33% 33.33%;
+grid-template-rows: auto;
+border-radius: 10px;
+border-color: red;
+border-style: solid;
+}
+
+.sidestory{
+    display: flex;
+    flex-direction: row;
+    border-radius: 15px;
+border-style: dotted;
+border-color: forestgreen
+}
+.imger1{
+    padding-top: 50%;
+    width: 100%;
+    border-radius: 15px;
+border-style: dashed;
+border-color: forestgreen
+}
+.sidecontent{
+    display: flex;
+    flex-direction: column;
+    flex
+}
+.newtag1{
+    color: #2D3577;
+font-family: Inter;
+font-size: 28px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.title1{
+    color: #000;
+font-family: Inter;
+font-size: 28px;
+font-weight: 700;
+}
+

@@ -20,16 +20,39 @@ const router = createBrowserRouter([
   <div className='qoute'>
     Your source for the crap that matters.
   </div>
-  <div className='content'>
-  <div className='newtag'>NEW</div>
-  <div className='title'>MENTAL HEALTH REALTED TO COLON HEALTH?</div>
-  <div className='blurb'>Betty</div>
 
+  <div className='mainstory'>
+    <div className='image'>
+    <img className= 'imger' src="https://via.placeholder.com/1080x720" />
+    </div>
+    <div className='grider'>
+    <div className='newtag'>NEW</div>
+      <div className='title'>MENTAL HEALTH REALTED TO COLON HEALTH?</div>
+        <div className='blurb'>Betty</div>
+  
+  </div>
+</div>
 
-
+<div className='sidestorys'>
+  <div className='sidestory'>
+    <div>
+      <div className='sidecontent'><div className='newtag'>Quiz</div>
+      <p className='title1'>Which bathroom are you? Dwinelle
+basement, you fucking perv.</p>
+        
+        </div>
+    </div>
+    <div> 
+    <img className= 'imger1' src="https://via.placeholder.com/1080x720" />
+    </div>
   </div>
 
-  <img className='image' src="https://via.placeholder.com/692x390" />
+  <div className='sidestory'>
+  </div>
+  <div className='sidestory'>
+  </div>
+</div>
+
   </>
   },
   
