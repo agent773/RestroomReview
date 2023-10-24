@@ -34,25 +34,45 @@ const router = createBrowserRouter([
 </div>
 
 <div className='sidestorys'>
-  <div className='sidestory'>
+  <div className='sidestory1'>
     <div>
-      <div className='sidecontent'><div className='newtag'>Quiz</div>
+      <div className='sidecontent'>
+        <div className='type'>Quiz</div>
       <p className='title1'>Which bathroom are you? Dwinelle
 basement, you fucking perv.</p>
         
         </div>
     </div>
-    <div> 
+    <div className='placer'> 
     <img className= 'imger1' src="https://via.placeholder.com/1080x720" />
     </div>
   </div>
-
   <div className='sidestory'>
+    <div>
+      <div className='sidecontent'>
+        <div className='type'>Home</div>
+      <p className='title1'>“Just like home!” How to decorate your  bathroom just like Wheeler</p>
+        
+        </div>
+    </div>
+    <div className='placer'>     <img className= 'imger1' src="https://via.placeholder.com/1080x720" /> </div>
   </div>
   <div className='sidestory'>
+    <div>
+      <div className='sidecontent'>
+        <div className='type'>Lifestyle</div>
+      <p className='title1'>Too busy to work out? How to sneak a quick one in during B.T.</p>
+        </div>
+    </div>
+
+    <div className='placer'> 
+    <img className= 'imger1' src="https://via.placeholder.com/1080x720" />
+    </div>
   </div>
 </div>
-
+<footer>
+© Berkeley RR
+</footer>
   </>
   },
   
