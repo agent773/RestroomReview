@@ -44,8 +44,8 @@ function NavbarDarkExample() {
             menuVariant="dark"
             className='navdrop'
         >
-            <NavDropdown.Item href="https://www.buzzfeed.com/quizzes" target='_blank'>Quizzes</NavDropdown.Item>
-            <NavDropdown.Item href="https://weather.com/" target='_blank'>Weather</NavDropdown.Item>
+            <NavDropdown.Item href="https://www.buzzfeed.com/parth773/what-berkeley-bathroom-are-you-9hdv8lzo2w?utm_source=dynamic&utm_campaign=bfsharecopy" target='_blank'>Quiz</NavDropdown.Item>
+            <NavDropdown.Item href="https://www.wunderground.com/weather/us/ca/berkeley/KCABERKE283" target='_blank'>Weather</NavDropdown.Item>
             <NavDropdown.Item href="https://theonion.com/" target='_blank'>Inspiration</NavDropdown.Item>
         </NavDropdown>
         </Nav>

@@ -100,5 +100,7 @@ font-weight: 700;
 }
 footer{
     margin: 0%;
-    
+}
+a{
+    text-decoration: none;
 }

@@ -3,6 +3,7 @@ import './App.css';
 import Navbar from './Navbar';
 import Article1 from './Article1';
 import BasicExample from './BasicExample';
+import bathroom_image from './assets/bathroom.jpg'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './qoute.css';
 import './mainstory.css'
@@ -22,18 +23,20 @@ const router = createBrowserRouter([
   </div>
 
   <div className='mainstory'>
-    <div className='image'>
-    <img className= 'imger' src="https://via.placeholder.com/1080x720" />
+    <a href="/article1"><div className='image'>
+    <img className= 'imger' src={bathroom_image} />
     </div>
+    </a>
     <div className='grider'>
     <div className='newtag'>NEW</div>
-      <div className='title'>MENTAL HEALTH REALTED TO COLON HEALTH?</div>
-        <div className='blurb'>Betty</div>
+    <a href="/article1"> <div className='title'>2023 RANKINGS ARE IN!</div></a>
+        <div className='blurb'>Move over Michelin stars, it's time for the porcelain throne parade! In a world where toilet paper quality matters as much as Michelin-starred cuisine, Berkeley's restrooms have emerged as the unsung heroes of the city. From the 'Squeaky Clean Sanctuaries' to the 'Eccentric Flush Galore,' this year's restroom review rankings promise to unveil the most hilarious and eyebrow-raising toilet tales ever witnessed. Get ready for a whirlwind of quirkiness, splashes of surprise, and of course, a whole lot of 'sit'-com-worthy moments that will leave you chuckling on the edge of your toilet seat!</div>
   
   </div>
 </div>
 
 <div className='sidestorys'>
+  <a href="https://www.buzzfeed.com/parth773/what-berkeley-bathroom-are-you-9hdv8lzo2w?utm_source=dynamic&utm_campaign=bfsharecopy">
   <div className='sidestory1'>
     <div>
       <div className='sidecontent'>
@@ -47,6 +50,7 @@ basement, you fucking perv.</p>
     <img className= 'imger1' src="https://via.placeholder.com/1080x720" />
     </div>
   </div>
+  </a>
   <div className='sidestory'>
     <div>
       <div className='sidecontent'>
