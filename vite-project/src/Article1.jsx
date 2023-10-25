@@ -152,16 +152,25 @@ function App() {
         </div>
       </div>
       <div className='recommended'>
+      <a href="/article1">
         <div className='recArticle' id='rec1'>
-          rec article image/title 1 go here
+        <div className='title1'>Bathroom Rankings 2023!</div>
+        <div><img className='im' src="https://placehold.co/600x400"/></div>
         </div>
+        </a>
+        <a href="">
         <div className='recArticle' id='rec2'>
-          rec article image/title 2 go here
+        <div className='title1'>Which UC Berkeley bathroom are you? Quiz!</div>
+        <div><img className='im' src="https://placehold.co/600x400"/></div>
         </div>
+        </a>
+        <a href="">
         <div className='recArticle' id='rec3'>
-          rec article image/title 3 go here
+        <div className='title1'>Do you need to find a spot to unload? We got you!</div>
+        <div><img className='im' src="https://placehold.co/600x400"/></div>
         </div>
-      </div>
+        </a>
+        </div>
     </div>
     <footer> <div className='margin_text'> Berkeley Restroom Review Ltd. © </div> </footer>
     </>

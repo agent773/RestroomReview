@@ -66,7 +66,6 @@ line-height: normal;
     width: 480px !important;
     position: sticky;
     top: 300px;
-
 }
 
 /* box that contains rec article formatting */
@@ -81,16 +80,18 @@ line-height: normal;
 
 .im{
     width: 100%;
+    position: sticky;
 }
+
 .title1{
-    border-style: solid;
     font-size: medium;
+    position: sticky;
 }
+
 #rec1 {
     position: sticky;
     top: 100px;
 }
-
 
 #rec2 {
     position: sticky;
