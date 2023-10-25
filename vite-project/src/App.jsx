@@ -7,6 +7,7 @@ import bathroom_image from './assets/bathroom.jpg'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './qoute.css';
 import './mainstory.css'
+import Article2 from './Article2'
 import {
   createBrowserRouter,
   RouterProvider
@@ -51,21 +52,24 @@ basement, you fucking perv.</p>
     </div>
   </div>
   </a>
+  <a href="/article2">
   <div className='sidestory'>
     <div>
       <div className='sidecontent'>
-        <div className='type'>Home</div>
-      <p className='title1'>“Just like home!” How to decorate your  bathroom just like Wheeler</p>
+        <div className='type'>Health</div>
+      <p className='title1'>Wait is mental health realted to colon health? The Answer will shock you</p>
         
         </div>
     </div>
     <div className='placer'>     <img className= 'imger1' src="https://via.placeholder.com/1080x720" /> </div>
   </div>
+  </a>
+  <a href="https://cal-admin.maps.arcgis.com/apps/instant/sidebar/index.html?appid=7607a3f9594447ce9b77b251abb1a3f5">
   <div className='sidestory'>
     <div>
       <div className='sidecontent'>
-        <div className='type'>Lifestyle</div>
-      <p className='title1'>Too busy to work out? How to sneak a quick one in during B.T.</p>
+        <div className='type'>Map</div>
+      <p className='title1'>Don't where the closest porcelain throne is? Here's a map of all of them loser.</p>
         </div>
     </div>
 
@@ -73,6 +77,7 @@ basement, you fucking perv.</p>
     <img className= 'imger1' src="https://via.placeholder.com/1080x720" />
     </div>
   </div>
+  </a>
 </div>
 <footer>
 © Berkeley RR
@@ -87,7 +92,7 @@ basement, you fucking perv.</p>
 
   {
     path: "/article2",
-    element: <Article1 />
+    element: <Article2 />
   },
 ]);
 

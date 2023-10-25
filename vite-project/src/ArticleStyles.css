@@ -73,12 +73,24 @@ line-height: normal;
 .recArticle {
     /* make width match that of rec boxes in home page */
     width: 480px !important;
+    display: grid;
+    grid-template-columns: 50% 50%; 
+    grid-template-rows: auto;
+    position: sticky;
 }
 
+.im{
+    width: 100%;
+}
+.title1{
+    border-style: solid;
+    font-size: medium;
+}
 #rec1 {
     position: sticky;
     top: 100px;
 }
+
 
 #rec2 {
     position: sticky;
