@@ -6,8 +6,12 @@ import BasicExample from './BasicExample';
 import bathroom_image from './assets/bathroom.jpg'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './qoute.css';
-import './mainstory.css'
-import Article2 from './Article2'
+import './mainstory.css';
+import Article2 from './Article2';
+import map from './assets/map.jpg';
+import mental from './assets/mentalhealth.jpg';
+import lady from './assets/coollady.png';
+
 import {
   createBrowserRouter,
   RouterProvider
@@ -30,8 +34,9 @@ const router = createBrowserRouter([
     </a>
     <div className='grider'>
     <div className='newtag'>NEW</div>
-    <a href="/article1"> <div className='title'>2023 RANKINGS ARE IN!</div></a>
-        <div className='blurb'>Move over Michelin stars, it's time for the porcelain throne parade! In a world where toilet paper quality matters as much as Michelin-starred cuisine, Berkeley's restrooms have emerged as the unsung heroes of the city. From the 'Squeaky Clean Sanctuaries' to the 'Eccentric Flush Galore,' this year's restroom review rankings promise to unveil the most hilarious and eyebrow-raising toilet tales ever witnessed. Get ready for a whirlwind of quirkiness, splashes of surprise, and of course, a whole lot of 'sit'-com-worthy moments that will leave you chuckling on the edge of your toilet seat!</div>
+    <a href="/article1"> <div className='titlee'>2023 RANKINGS ARE IN!</div></a>
+    <br/>
+    <div className='blurb'>Move over Michelin stars, it's time for the porcelain throne parade! In a world where toilet paper quality matters as much as Michelin-starred cuisine, Berkeley's restrooms have emerged as the unsung heroes of the city. From the 'Squeaky Clean Sanctuaries' to the 'Eccentric Flush Galore,' this year's restroom review rankings promise to unveil the most hilarious and eyebrow-raising toilet tales ever witnessed. Get ready for a whirlwind of quirkiness, splashes of surprise, and of course, a whole lot of 'sit'-com-worthy moments that will leave you chuckling on the edge of your toilet seat!</div>
   
   </div>
 </div>
@@ -48,7 +53,7 @@ basement, you fucking perv.</p>
         </div>
     </div>
     <div className='placer'> 
-    <img className= 'imger1' src="https://via.placeholder.com/1080x720" />
+    <img className= 'imger1' src={lady} />
     </div>
   </div>
   </a>
@@ -57,11 +62,11 @@ basement, you fucking perv.</p>
     <div>
       <div className='sidecontent'>
         <div className='type'>Health</div>
-      <p className='title1'>Wait is mental health realted to colon health? The Answer will shock you</p>
+      <p className='title1'> Mental health realted to colon health? The answer will make you shit your pants. </p>
         
         </div>
     </div>
-    <div className='placer'>     <img className= 'imger1' src="https://via.placeholder.com/1080x720" /> </div>
+    <div className='placer'>     <img className= 'imger1' src={mental} /> </div>
   </div>
   </a>
   <a href="https://cal-admin.maps.arcgis.com/apps/instant/sidebar/index.html?appid=7607a3f9594447ce9b77b251abb1a3f5">
@@ -69,18 +74,18 @@ basement, you fucking perv.</p>
     <div>
       <div className='sidecontent'>
         <div className='type'>Map</div>
-      <p className='title1'>Don't where the closest porcelain throne is? Here's a map of all of them loser.</p>
+      <p className='title1'>Don't where the closest porcelain throne is? Here's a map of all of them. </p>
         </div>
     </div>
 
     <div className='placer'> 
-    <img className= 'imger1' src="https://via.placeholder.com/1080x720" />
+    <img className= 'imger1' src={map} />
     </div>
   </div>
   </a>
 </div>
 <footer>
-© Berkeley RR
+© Berkeley R.R.
 </footer>
   </>
   },

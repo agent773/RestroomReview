@@ -34,6 +34,7 @@ function NavbarDarkExample() {
           <Navbar.Text>
             <a href="/" className='link'>Home        </a>
             <a href="/article1" className='link'>2023 Rankings        </a>
+            <a href="/article2" className='link'>Health        </a>
             <a href="https://www.theguardian.com/us" className='link' target='_blank'>Politics    </a>
           </Navbar.Text>
           <Nav>

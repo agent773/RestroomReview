@@ -22,6 +22,10 @@ import havin from './assets/havin.jpg'
 import aprout from './assets/aprout.jpg'
 import aprin from './assets/aprin.jpg'
 
+import mental from './assets/mentalhealth.jpg'
+import map from './assets/map.jpg'
+import lady from './assets/coollady.png'
+
 function App() {
   // const [count, setCount] = useState(0)
 
@@ -152,18 +156,38 @@ function App() {
         </div>
       </div>
       <div className='recommended'>
+        <a href="/article2">
         <div className='recArticle' id='rec1'>
-          rec article image/title 1 go here
+        <div className='title1'>
+          <div className='side_type'> Health </div>
+          Colon x Mental Health: An Unlikely Collab
         </div>
-        <div className='recArticle' id='rec2'>
-          rec article image/title 2 go here
+        <div><img className='im' src={mental}/></div>
         </div>
-        <div className='recArticle' id='rec3'>
-          rec article image/title 3 go here
+        </a>
+
+        <a href="https://www.buzzfeed.com/parth773/what-berkeley-bathroom-are-you-9hdv8lzo2w?utm_source=dynamic&utm_campaign=bfsharecopy" target='_blank'>
+        <div className='recArticle' id='rec1'>
+        <div className='title1'>
+          <div className='side_type'> Quiz </div>
+          Which UC Berkeley Bathroom are You?
         </div>
+        <div><img className='im' src={lady}/></div>
+        </div>
+        </a>
+
+        <a href="https://cal-admin.maps.arcgis.com/apps/instant/sidebar/index.html?appid=7607a3f9594447ce9b77b251abb1a3f5" target='_blank'>
+        <div className='recArticle' id='rec1'>
+        <div className='title1'>
+          <div className='side_type'> Local Affairs </div>
+          Don't Know Where to Go? We got you!
+        </div>
+        <div><img className='im' src={map}/></div>
+        </div>
+        </a>
       </div>
     </div>
-    <footer> <div className='margin_text'> Berkeley Restroom Review Ltd. © </div> </footer>
+    <footer> <div className='margin_text'> © Berkeley R.R. </div> </footer>
     </>
 
     // <>

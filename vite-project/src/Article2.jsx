@@ -4,23 +4,11 @@ import './ArticleStyles.css'
 import Navbar from './Navbar';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './qoute.css';
+
 import bathroom_image from './assets/bathroom.jpg'
-
-import dwinout from './assets/dwinout.jpg'
-import dwinin from './assets/dwinin.jpg'
-
-import ealin from './assets/ealin.jpg'
-import ealout from './assets/ealout.jpg'
-
-import haascrack from './assets/haascrack.jpg'
-import haasout from './assets/haasout.jpg'
-import haasin from './assets/haasin.jpg'
-
-import havout from './assets/havout.jpg'
-import havin from './assets/havin.jpg'
-
-import aprout from './assets/aprout.jpg'
-import aprin from './assets/aprin.jpg'
+import mental from './assets/mentalhealth.jpg'
+import map from './assets/map.jpg'
+import lady from './assets/coollady.png'
 
 function App() {
   // const [count, setCount] = useState(0)
@@ -37,10 +25,10 @@ function App() {
           Colon and Mental Health realated??
         </div>
         <div className='image_box'>
-          <img className='header_image' src={bathroom_image}/>
+          <img className='header_image' src={mental}/>
         </div>
         <div className='caption'>
-          The secret bathroom in Dwinelle that everyone knows about but you
+          trying to hold it in before i get home
         </div>
         <br/>
         <div className='text'>
@@ -72,25 +60,36 @@ In this topsy-turvy world of mental health and colon health, one thing is for ce
       <div className='recommended'>
         <a href="/article1">
         <div className='recArticle' id='rec1'>
-        <div className='title1'>Bathroom Rankings 2023!</div>
-        <div><img className='im' src="https://placehold.co/600x400"/></div>
+        <div className='title1'>
+          <div className='side_type'> Rankings </div>
+          Bathroom Rankings 2023!
+        </div>
+        <div><img className='im' src={bathroom_image}/></div>
         </div>
         </a>
-        <a href="">
-        <div className='recArticle' id='rec2'>
-        <div className='title1'>Which UC Berkeley bathroom are you? Quiz!</div>
-        <div><img className='im' src="https://placehold.co/600x400"/></div>
+
+        <a href="https://www.buzzfeed.com/parth773/what-berkeley-bathroom-are-you-9hdv8lzo2w?utm_source=dynamic&utm_campaign=bfsharecopy" target='_blank'>
+        <div className='recArticle' id='rec1'>
+        <div className='title1'>
+          <div className='side_type'> Quiz </div>
+          Which UC Berkeley Bathroom are You?
+        </div>
+        <div><img className='im' src={lady}/></div>
         </div>
         </a>
-        <a href="">
-        <div className='recArticle' id='rec3'>
-        <div className='title1'>Do you need to find a spot to unload? We got you!</div>
-        <div><img className='im' src="https://placehold.co/600x400"/></div>
+
+        <a href="https://cal-admin.maps.arcgis.com/apps/instant/sidebar/index.html?appid=7607a3f9594447ce9b77b251abb1a3f5" target='_blank'>
+        <div className='recArticle' id='rec1'>
+        <div className='title1'>
+          <div className='side_type'> Local Affairs </div>
+          Don't Know Where to Go? We got you!
+        </div>
+        <div><img className='im' src={map}/></div>
         </div>
         </a>
       </div>
     </div>
-    <footer> <div className='margin_text'> Berkeley Restroom Review Ltd. © </div> </footer>
+    <footer> <div className='margin_text'> © Berkeley R.R. </div> </footer>
     </>
 
     // <>

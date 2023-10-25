@@ -61,10 +61,9 @@ line-height: normal;
 
 /* container for recommended articles */
 .recommended {
-    display: flex;
-    flex-direction: column;
-    width: 480px !important;
-    position: sticky;
+    display: grid;
+    width: 40vw !important;
+    position: sticky !important;
     top: 300px;
 
 }
@@ -75,31 +74,36 @@ line-height: normal;
     width: 480px !important;
     display: grid;
     grid-template-columns: 50% 50%; 
-    grid-template-rows: auto;
+    grid-template-rows: 33% 33% 33%;
     position: sticky;
 }
 
 .im{
     width: 100%;
+    max-height: 150px;
+    object-fit: cover;
+    overflow: hidden;
+    /* aspect-ratio: 1 / 1; */
 }
+
 .title1{
     border-style: solid;
     font-size: medium;
 }
+
 #rec1 {
     position: sticky;
     top: 100px;
 }
 
-
 #rec2 {
     position: sticky;
-    top: 250px;
+    top: 100px;
 }
 
 #rec3 {
     position: sticky;
-    top: 400px;
+    top: 100px;
 }
 
 /* so this doesnt actually work, but good for reference */
@@ -122,4 +126,14 @@ footer {
     color: white;
     font-size: 24px;
     margin-top: 50px;
+}
+
+a {
+    height: auto;
+}
+
+.side_type {
+    color: #2D3577 !important;
+    text-align: right;
+    margin-right: 16px;
 }
